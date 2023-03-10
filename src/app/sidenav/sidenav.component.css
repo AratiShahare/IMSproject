@@ -1,0 +1,18 @@
+
+a{
+    margin-left: 40px;
+   
+}
+a:hover{
+    color: rgb(28, 148, 246);
+}
+
+.abc{
+    text-decoration: none;
+    color: grey;
+}
+
+i{
+    margin-left: 20px;
+    margin-right: 10px;
+}

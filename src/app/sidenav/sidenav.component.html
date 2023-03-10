@@ -1,0 +1,30 @@
+
+<!--mat nav list :- use to create navigation list  -->
+<mat-nav-list>
+    <div class="logo ">
+      <img src=".\assets\image\CI logo.jpg" alt="Company Logo" 
+      style="height: 60px;margin-left: 20px;margin-top: 0px;"/>
+    </div>
+    <!-- mat divider :- use for styling line seperator's -->
+    <mat-divider></mat-divider>
+    <p matSubheader class="mt-2" style="color: rgb(128, 128, 128);margin-left: 20px;">Main Menu</p>
+
+<!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+    <!-- mat expansion pannel header :- used to control or collapse the panel -->
+ <mat-expansion-panel-header>
+    <mat-panel-title style="font-size: larger;">
+      <i class="fa-solid fa-user-graduate"></i>
+            <span>Students</span>
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+        <!-- links -->
+        <mat-list><a routerLink="add" class="abc">Student Add</a></mat-list>
+        <mat-list><a routerLink="edit" class="abc">Student Edit</a></mat-list>
+        <mat-list><a routerLink="list" class="abc">Student List</a></mat-list>
+        <mat-list><a routerLink="view" class="abc">Student View</a></mat-list>
+    </mat-expansion-panel>
+
+</mat-nav-list>
+
+
