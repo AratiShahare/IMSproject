@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component ,Input} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+@Input() collapsed=false
+@Input() screenWidht=0;
+
+constructor(){}
+
+  getHeadClass(): string{
+    let styleClass='';
+    if(this.collapsed && this.screenWidht >768){
+      styleClass= 'head-trimmed';
+    }
+    else{
+      styleClass='head-md-screen';
+    }
+    return styleClass
+  }
 }

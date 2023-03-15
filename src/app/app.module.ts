@@ -20,6 +20,9 @@ import{MatExpansionModule} from '@angular/material/expansion';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import{ MatButtonModule} from '@angular/material/button'
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatPaginatorModule} from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
@@ -46,6 +49,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
       MatListModule,
       MatExpansionModule,
       FontAwesomeModule,
+      MatButtonModule,
+      MatButtonToggleModule,
+      MatPaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
