@@ -40,7 +40,9 @@ img{
     color: #fff;
     text-align: center;
     margin: 10px;
-    width: 90px;
+    margin-left: 35px;
+    width: 250px;
+    height: 150px;
 }
 
 
@@ -87,3 +89,23 @@ img{
       z-index: 2;
       position: relative;
   }
+
+
+
+
+.progress {
+    display: -ms-flexbox;
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+}
+
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}

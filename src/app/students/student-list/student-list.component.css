@@ -144,3 +144,24 @@ div.dataTables_wrapper div.dataTables_length select {
     border-bottom-right-radius: 5px;
    
   }
+
+  #i1{
+    color: white;
+    padding: 5px;
+    background-color: #3fbaef;
+   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #i2{
+    color: white;
+    padding: 5px;
+    background-color: #f7af29;
+   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
