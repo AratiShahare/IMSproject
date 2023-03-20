@@ -136,12 +136,14 @@ div.dataTables_wrapper div.dataTables_length select {
 
   #plus{
     background-color: white;
-    padding: 5px;
+    /* padding: 5px; */
+    font-size: 12px;
+    font-weight: bolder;
     border: 1px solid #1504ca; 
-    border-top-left-radius: 5px;
+    /* border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
    
   }
 
@@ -164,4 +166,7 @@ div.dataTables_wrapper div.dataTables_length select {
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+  .download a{
+       text-decoration: none;
   }
