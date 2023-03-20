@@ -23,13 +23,20 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import{ MatButtonModule} from '@angular/material/button'
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import { DashboardModule } from './dashboard/dashboard.module';
+import { TeacherModule } from './teacher/teacher.module';
+import { DepartmentModule } from './department/department.module';
+import { SubjectModule } from './subject/subject.module';
+import { AccountModule } from './account/account.module';
+import { AuthenticationModule } from './authentication/authentication.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     HeaderComponent,
-    
+
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,13 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-
+     DashboardModule,
+     TeacherModule,
+     DepartmentModule,
+     SubjectModule,
+     AccountModule,
+     AuthenticationModule,
+     
       MatSidenavModule,
       MatToolbarModule,
       MatMenuModule,

@@ -1,0 +1,139 @@
+
+
+
+#cardbody1 ,#cardbody2 ,#cardbody3 ,#cardbody4{
+   
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    padding: 1.5rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/* div {
+    display: block;
+} */
+#card1 ,#card2 ,#card3 ,#card4{
+    position: relative;
+    
+    display: flex;
+
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    
+    background-clip: border-box;
+    border: 1px solid #ececf5;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.03);
+    margin-bottom: 1.875rem;
+
+}
+
+
+
+#card1 {
+    background-color: rgba(231, 163, 141, 0.5);
+    border-color: #eb1212;
+    border-radius: 30px 0px;
+}
+
+#card2
+{
+    background-color: rgba(186, 152, 227, 0.285);
+    border-color: #8338de;
+    border-radius: 30px 0px;
+}
+
+#card3
+{
+    background-color: rgb(253 187 56 / 0.5);
+    border-color: #fdbb38;
+    border-radius: 30px 0px;
+}
+
+#card4
+{
+    background-color: rgba(86, 209, 249, 0.5);
+    border-color: #1957cb;
+    border-radius: 30px 0px;
+}
+.w-100 {
+    width: 100%!important;
+}
+
+
+
+
+
+.align-items-center {
+   
+    align-items: center!important;
+}
+.justify-content-between {
+    
+    justify-content: space-between!important;
+}
+.d-flex {
+    
+    display: flex!important;
+}
+
+
+.bg-two .db-icon {
+    background-color: #713fd6;
+}
+
+.bg-three .db-icon {
+    background-color: #fdbb38;
+}
+
+.bg-four .db-icon {
+    background-color: #2dbcf5;
+}
+
+.bg-one .db-icon {
+    background-color: #f4672a;
+}
+.db-icon {
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    padding: 13px 21px;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+
+.db-info h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333333;
+}
+
+
+
+.db-info h6 {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}

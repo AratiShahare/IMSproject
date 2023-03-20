@@ -6,7 +6,7 @@
         <h1  >
             Students
           </h1>
-    <span >  Dashboard / Students</span>
+    <span >  <a [routerLink]="['/admin']" style="text-decoration: none;color: black;">Dashboard</a> / Students</span>
     
       </div>
       <div class="col-auto text-right float-right ml-auto">
@@ -66,18 +66,18 @@
            </tr>
         </tbody>
       </table>
-      <ul class="pagination col-auto text-right float-right ml-auto " style="margin-right: 6px;">
-        <li class="page-item"><a class="page-link" href="#" >Previous</a></li>
-        <li class="page-item active " ><a class="page-link" href="#">1</a></li>
+      <!-- <ul class="pagination col-auto text-right float-right ml-auto " style="margin-right: 6px;">
+        <li class="page-item"><a class="page-link" href="" >Previous</a></li>
+        <li class="page-item active " ><a class="page-link" href="">1</a></li>
        
-        <li class="page-item " ><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-      </ul>
-      <!-- <mat-paginator [length]="100"
+        <li class="page-item " ><a class="page-link" href="">2</a></li>
+        <li class="page-item"><a class="page-link" href="">Next</a></li>
+      </ul> -->
+      <mat-paginator [length]="100"
       [pageSize]="10"
       [pageSizeOptions]="[5, 10, 25, 100]"
       aria-label="Select page">
-    </mat-paginator> -->
+    </mat-paginator>
 
 </form>
 
