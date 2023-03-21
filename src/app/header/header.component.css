@@ -29,8 +29,14 @@ mat-toolbar-row{
     display: flex;
     align-items: center;
     margin-right: 15px;
+
     gap:20px;
     margin-top: -7px;
+
+
+    justify-content: space-around;
+    gap:20px;
+
 }
 
 input{
@@ -38,7 +44,10 @@ input{
     padding-left: 25px;
     outline: 0px;
     border: 1px solid rgba(0, 0, 0, 0.425);
+
 }
+
+
 .user{
    height: 50px;
    

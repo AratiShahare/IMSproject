@@ -14,4 +14,7 @@ export class TeacherService {
    saveTeacher(body:any){
     return this.http.post(`${this.baseurl}/mentor/register`,body)
    }
+   listTeacher(){
+    return this.http.get(`${this.baseurl}/mentor/all`)
+   }
 }

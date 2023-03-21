@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { StudentService } from 'src/app/service/student.service';
 
 @Component({
   selector: 'app-student-list',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class StudentListComponent {
 
+  constructor(private lis:StudentService){this.getallstudList()}
+  
+  studentList:any
+
+  getallstudList(){
+        this.lis.getallstudList().subscribe(res=>this.studentList=res)
+  }
 }
