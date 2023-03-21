@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./teacher-add.component.css']
 })
 export class TeacherAddComponent {
+  constructor(){}
 
 }
