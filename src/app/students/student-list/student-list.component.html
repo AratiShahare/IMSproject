@@ -9,9 +9,9 @@
     <span >  <a [routerLink]="['/admin']" style="text-decoration: none;color: black;">Dashboard</a> / Students</span>
     
       </div>
-      <div class="col-auto text-right float-right ml-auto">
+      <div class="col-auto text-right float-right ml-auto download">
          <a href="#" class="bt btn-outline-primary mr-2" id="button">
-          <i class="fas fa-download" >Download</i>
+          <i class="fas fa-download" ></i>&nbsp;&nbsp;Download
          </a>
          <a [routerLink]="['/add']" class="btn btn-primary" id="plus">
             <i class="fas fa-plus"></i>
@@ -19,7 +19,7 @@
       </div>
       
     </div>
-<form>
+<div id="form">
     <div  class="dataTables_length" id="DataTables_Table_0_length">
         <label style="margin-left: 20px;">
             <!-- <select  name="DataTables_Table_0_length" aria-controls="DataTables_Table_0" class="custom-select custom-select-sm form-control form-control-sm">
@@ -34,28 +34,68 @@
         </label>
  
     </div>
-    <table class="table mx-4"  >
-        <thead>
+  </div>
+  <div class="outer-wrapper">
+  <div class="table-wrapper">
+
+    <table class="mx-4"  class="table table-bordered">
+        
             <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Class</th>
-                <th>DOB</th>
-                <th>Parent Name</th>
-                <th>Mobile Number</th>
-                <th>Address</th>
-                <th>Action</th>
+                <th>id</th>
+                <th>studentId</th>
+                <th>firstName</th>
+                <th>lastName</th>
+                <th>email</th>
+                <th>password</th>
+                <th>tempPassword</th>
+                <th>mobile</th>
+                <th>mentorId</th>
+                <th>createdOn</th>
+                <th>updateOn</th>
+                <th>active</th>
+                <th>education</th>
+                <th>gender</th>
+                <th>address</th>
+                <th>dob</th>
+                <th>course</th>
+                <th>passingYear</th>
+                <th>mentor</th>
+                <th>incomeId</th>
+                <th>basePackage</th>
+                <th>formalContractRecived</th>
+                <th>batchCode</th>
+                <th>contractSent</th>
+                <th>mentorOpted</th>
+              
+                <th>action</th>
             </tr>
-        </thead>
-        <tbody>
-           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+        
+           <tr *ngFor="let a of  studentList">
+           <td>{{a.id}}</td>
+           <td>{{a.studentId}}</td>
+           <td>{{a.firstName}}</td>
+           <td>{{a.lastName}}</td>
+           <td>{{a.email}}</td>
+           <td>{{a.password}}</td>
+           <td>{{a.tempPassword}}</td>
+           <td>{{a.mobile}}</td>
+           <td>{{a.mentorId}}</td>
+           <td>{{a.createdOn}}</td>
+           <td>{{a.updateOn}}</td>
+           <td>{{a.active}}</td>
+           <td>{{a.education}}</td>
+           <td>{{a.gender}}</td>
+           <td>{{a.address}}</td>
+           <td>{{a.dob}}</td>
+           <td>{{a.course}}</td>
+           <td>{{a.passingYear}}</td>
+           <td>{{a.mentor}}</td>
+           <td>{{a.incomeId}}</td>
+           <td>{{a.basePackage}}</td>
+           <td>{{a.formalContractRecived}}</td>
+           <td>{{a.batchCode}}</td>
+           <td>{{a.contractSent}}</td>
+           <td>{{a.mentorOpted}}</td>
             <td><button class="btn btn-sm bg-success-light " id="btn1">
               <i class="fas fa-pen" id="i1"></i>
             </button>
@@ -64,7 +104,7 @@
             </button>
           </td>
            </tr>
-        </tbody>
+      
       </table>
       <!-- <ul class="pagination col-auto text-right float-right ml-auto " style="margin-right: 6px;">
         <li class="page-item"><a class="page-link" href="" >Previous</a></li>
@@ -79,7 +119,7 @@
       aria-label="Select page">
     </mat-paginator>
 
-</form>
+  </div>
 
   
 </div>
