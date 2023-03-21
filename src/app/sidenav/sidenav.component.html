@@ -12,7 +12,28 @@
   <!-- mat divider :- use for styling line seperator's -->
   <mat-divider></mat-divider>
   <p matSubheader class="mt-2" style="color: rgb(128, 128, 128);margin-left: 20px;">Main Menu</p>
+   
 
+  <!-- dashboard -->
+
+  <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+    <i class="fa-solid fa-user-graduate"></i>
+          <span>Dashboard</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="admin" class="abc">Admin Dashboard</a></mat-list>
+      <mat-list><a routerLink="student" class="abc">Student Dashboard</a></mat-list>
+      <mat-list><a routerLink="dashteacher" class="abc">Teacher Dashboard</a></mat-list>
+    
+  </mat-expansion-panel>
+
+
+  <!-- student -->
 <!-- mat expansion pannel :- angular directive used to create expandable details -->
 <mat-expansion-panel>
   <!-- mat expansion pannel header :- used to control or collapse the panel -->
@@ -27,6 +48,126 @@
       <mat-list><a routerLink="edit" class="abc">Student Edit</a></mat-list>
       <mat-list><a routerLink="list" class="abc">Student List</a></mat-list>
       <mat-list><a routerLink="view" class="abc">Student View</a></mat-list>
+  </mat-expansion-panel>
+
+
+
+  <!-- teacher -->
+
+  <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+   <i class="fas fa-chalkboard-teacher"></i>
+          <span>Teachers</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="tadd" class="abc">Teacher Add</a></mat-list>
+      <mat-list><a routerLink="tedit" class="abc">Teacher Edit</a></mat-list>
+      <mat-list><a routerLink="tlist" class="abc">Teacher List</a></mat-list>
+      <mat-list><a routerLink="tview" class="abc">Teacher View</a></mat-list>
+  </mat-expansion-panel>
+
+
+  <!-- department -->
+
+  
+    <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+    <i class="fas fa-building"></i>
+          <span>Departments</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="dadd" class="abc">Department Add</a></mat-list>
+      <mat-list><a routerLink="dedit" class="abc">Department Edit</a></mat-list>
+      <mat-list><a routerLink="dlist" class="abc">Department List</a></mat-list>
+    
+  </mat-expansion-panel>
+
+
+
+  <!-- subject -->
+
+      <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+    <i class="fas fa-book-reader"></i>
+          <span>Subjects</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="suadd" class="abc">Subject Add</a></mat-list>
+      <mat-list><a routerLink="suedit" class="abc">Subject Edit</a></mat-list>
+      <mat-list><a routerLink="sulist" class="abc">Subject List</a></mat-list>
+    
+  </mat-expansion-panel>
+
+
+    <!-- mat divider :- use for styling line seperator's -->
+    <mat-divider></mat-divider>
+    <p matSubheader class="mt-2" style="color: rgb(128, 128, 128);margin-left: 20px;">Management</p>
+      
+
+    <!-- account -->
+
+        <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+    <i class="fas fa-file-invoice-dollar"></i>
+          <span>Accounts</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="fees" class="abc">Fees Collection</a></mat-list>
+      <mat-list><a routerLink="expenses" class="abc">Expenses</a></mat-list>
+      <mat-list><a routerLink="salary" class="abc">Salary</a></mat-list>
+      <mat-list><a routerLink="addfees" class="abc">Add Fees</a></mat-list>
+      <mat-list><a routerLink="addexpenses" class="abc">Add Expenses</a></mat-list>
+      <mat-list><a routerLink="addsalary" class="abc">Add Salary</a></mat-list>
+     
+    
+  </mat-expansion-panel>
+
+
+
+
+    
+    <!-- mat divider :- use for styling line seperator's -->
+    <mat-divider></mat-divider>
+    <p matSubheader class="mt-2" style="color: rgb(128, 128, 128);margin-left: 20px;">Pages</p>
+     
+
+
+    <!-- authentication -->
+
+
+    
+        <!-- mat expansion pannel :- angular directive used to create expandable details -->
+<mat-expansion-panel>
+  <!-- mat expansion pannel header :- used to control or collapse the panel -->
+<mat-expansion-panel-header>
+  <mat-panel-title style="font-size: larger;">
+    <i class="fas fa-shield-alt"></i>
+          <span>Authentication</span>
+    </mat-panel-title>
+  </mat-expansion-panel-header>
+      <!-- links -->
+      <mat-list><a routerLink="login" class="abc">Login</a></mat-list>
+      <mat-list><a routerLink="register" class="abc">Register</a></mat-list>
+      <mat-list><a routerLink="forgetpassword" class="abc">Forget Password</a></mat-list>
+      <mat-list><a routerLink="errorpage" class="abc">Error Page</a></mat-list>
+      
+    
   </mat-expansion-panel>
 
 </mat-nav-list>

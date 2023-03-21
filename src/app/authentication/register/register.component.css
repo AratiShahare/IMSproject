@@ -1,0 +1,95 @@
+ .container{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 30px auto;
+    margin-left: 220px;
+    max-width: 400px;
+    min-height: 500px;
+    width: 100%;
+}
+
+
+.login-or {
+    color: #a0a0a0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+
+.or-line {
+    background-color: #e5e5e5;
+    height: 1px;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: block;
+}
+
+
+.span-or {
+    background-color: #fff;
+    display: block;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    text-align: center;
+  
+    top: 0;
+    width: 42px;
+}
+
+button{
+    margin-left: 10px;
+}
+
+
+.social-login > span {
+    color: #a0a0a0;
+    margin-right: 8px;
+}
+
+
+.social-login > a.facebook {
+    background-color: #4b75bd;
+}
+.social-login > a {
+    background-color: #ccc;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 6px;
+    text-align: center;
+    width: 32px;
+}
+
+
+.social-login > a.google {
+    background-color: #fe5240;
+}
+.social-login > a:last-child {
+    margin-right: 0;
+}
+.social-login > a {
+    background-color: #ccc;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 6px;
+    text-align: center;
+    width: 32px;
+}
+
+
+button:hover{
+    background-color: rgb(52, 96, 238);
+}
