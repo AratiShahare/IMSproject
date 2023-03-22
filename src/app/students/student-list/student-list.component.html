@@ -96,10 +96,10 @@
            <td>{{a.batchCode}}</td>
            <td>{{a.contractSent}}</td>
            <td>{{a.mentorOpted}}</td>
-            <td><button class="btn btn-sm bg-success-light " id="btn1">
+            <td><button class="btn btn-sm bg-success-light " id="btn1" >
               <i class="fas fa-pen" id="i1"></i>
             </button>
-            <button class="btn btn-sm bg-danger-light ">
+            <button class="btn btn-sm bg-danger-light " (click)=" deleteStudlist(a.id)">
               <i class="fas fa-trash" id="i2"></i>
             </button>
           </td>
