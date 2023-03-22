@@ -17,3 +17,7 @@ i{
     margin-right: 10px;
 }
 
+mat-expansion-panel:hover{
+        width: 101%;
+}
+

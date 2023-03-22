@@ -7,6 +7,7 @@ import { TeacherListComponent } from './teacher-list/teacher-list.component';
 import { TeacherViewComponent } from './teacher-view/teacher-view.component';
 import { TeacherEditComponent } from './teacher-edit/teacher-edit.component';
 import { TeacherAddComponent } from './teacher-add/teacher-add.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { TeacherAddComponent } from './teacher-add/teacher-add.component';
   ],
   imports: [
     CommonModule,
-    TeacherRoutingModule
+    TeacherRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class TeacherModule { }

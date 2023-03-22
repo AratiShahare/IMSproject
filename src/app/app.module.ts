@@ -44,7 +44,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     StudentsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule,
+     FormsModule,
      DashboardModule,
      TeacherModule,
      DepartmentModule,

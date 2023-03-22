@@ -164,4 +164,17 @@ div.dataTables_wrapper div.dataTables_length select {
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+
   }
+
+  .download a{
+    text-decoration: none;
+}
+#plus{
+    font-size: 14px;
+    margin-top: -2px;
+    width: 33px;
+    font-weight: bolder;
+    border: 1px solid #1504ca; 
+}
+
