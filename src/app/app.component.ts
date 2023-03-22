@@ -9,11 +9,8 @@ export class AppComponent {
   title = 'IMSproject';
 
   sideBarOpen = true;
-  
 
   sideBarToggler() {
     this.sideBarOpen = !this.sideBarOpen;
-   
-
   }
 }

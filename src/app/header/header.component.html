@@ -2,11 +2,11 @@
    
 <mat-toolbar>
    <mat-toolbar-row >
-    <span class="tog">
+    <span>
       <button mat-icon-button (click)="toggleSidebar()"> <mat-icon>format_align_left</mat-icon>
         
       </button>
-      <input class="search" type="search" placeholder="search here">
+      <input type="search" placeholder="search here">
     </span>
 
   <span class="span1">
@@ -15,12 +15,9 @@
        
        
          <span >
-
           <button
          
            mat-button
-           
-
            [matMenuTriggerFor]="menu"
            class="user mt-2 d-flex align-items-center" >
          

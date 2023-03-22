@@ -2,11 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = 
-[
-  {
-    path:'',redirectTo:'admin', pathMatch:'full'
-  },
-  { path: 'students', 
+[{ path: 'students', 
 loadChildren: () => import('./students/students.module').then(m => m.StudentsModule) },
 
 { path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule) },
