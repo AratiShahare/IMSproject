@@ -15,4 +15,11 @@ export class StudentListComponent {
   getallstudList(){
         this.lis.getallstudList().subscribe(res=>this.studentList=res)
   }
+
+
+  deleteStudlist(id:number){
+    this.lis.deleteStudList(id).subscribe((res)=>console.log(res))
+    alert("deleted successfully")
+    this.getallstudList()
+  }
 }
