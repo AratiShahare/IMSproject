@@ -34,8 +34,11 @@
         </label>
  
     </div>
-    <table class="table mx-4"  >
-        <thead>
+    <div class="outer-wrapper">
+      <div class="table-wrapper">
+    
+        <table class="mx-4"  class="table table-bordered">
+      
             <tr>
                 <th>ID</th>
                 <th>First Name</th>
@@ -53,10 +56,10 @@
                 <th>Temp password</th>
                 <th>Batch Code</th>
                 <th>Mentor Id</th>
-
+                <th>Action</th>
             </tr>
-        </thead>
-        <tbody >
+       
+     
            <tr *ngFor="let t of teach">
             <td>{{t.id}}</td>
             <td>{{t.firstName}}</td>
@@ -82,7 +85,7 @@
             </button>
           </td>
            </tr>
-        </tbody>
+       
       </table>
       <ul class="pagination col-auto text-right float-right ml-auto " style="margin-right: 6px;">
         <li class="page-item"><a class="page-link" href="" >Previous</a></li>
@@ -97,7 +100,7 @@
       aria-label="Select page">
     </mat-paginator> -->
 
-</form>
+  </div>
 
   
 </div>
