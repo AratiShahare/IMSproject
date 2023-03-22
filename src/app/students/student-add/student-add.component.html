@@ -9,7 +9,7 @@
   
     </div>
   </div>
-    <form class="form mx-4 " [formGroup]="addstudform" >
+    <form class="form mx-4 " >
     <div class="title mx-3 py-3">
        <h2 class="field-title">
         <span>   Student Information </span>
@@ -21,35 +21,29 @@
           <div class="col-6"> 
             <div class="form-group">
             <label for="" class="form-label">First Name</label>
-            <input type="text" class="form-control" formControlName="firstName" name="firstName">
+            <input type="text" class="form-control">
             </div>
           </div>
 
           <div class="col-6">
             <div class="form-group">
               <label for="" class="form-label">Last Name</label>
-              <input type="text" class="form-control" formControlName="lastName" name="lastName">
+              <input type="text" class="form-control">
               </div>
   
           </div>
         </div>
             <div class="row mx-3 py-3 ">
-              <!-- <div class="col-6">
+              <div class="col-6">
                 <div class="form-group">
                   <label for="" class="form-label">Student id</label>
                   <input type="text" class="form-control">
-                  </div>
-              </div> -->
-              <div class="col-6">
-                <div class="form-group">
-                  <label for="" class="form-label">Course</label>
-                  <input type="text" class="form-control" formControlName="course" name="course">
                   </div>
               </div>
               <div class="col-6">
               <div class="form-group">
                 <label for="" class="form-label">Gender</label>
-                   <select name="" id="" class="form-control" formControlName="gender" name="gender">
+                   <select name="" id="" class="form-control">
                     <option value="">Select Gender</option>
                     <option value="">Female</option>
                     <option value="">Male</option>
@@ -63,69 +57,47 @@
                
           <div class="form-group">
             <label for="" class="form-label">Date of Birth</label>
-            <input type="date" class="form-control" formControlName="dob" name="dob">
+            <input type="date" class="form-control">
             </div>
         </div>
         <div class="col-6">
                
-          <!-- <div class="form-group">
+          <div class="form-group">
             <label for="" class="form-label">Class</label>
             <input type="text" class="form-control">
-            </div> -->
-            <div class="form-group">
-              <label for="" class="form-label">Education</label>
-              <input type="text" class="form-control" formControlName="education" name="education">
-              </div>
+            </div>
         </div>
        </div>
                 <div class="row mx-3 py-3">
-                  <!-- <div class="col-6">
+                  <div class="col-6">
                     <div class="form-group">
                       <label for="" class="form-label">Religion</label>
                       <input type="text" class="form-control">
                       </div>
-                  </div> -->
-                  <div class="col-6">
-                    <div class="form-group">
-                      <label for="" class="form-label">Email</label>
-                      <input type="email" class="form-control" formControlName="email" name="email">
-                      </div>
                   </div>
-                  <!-- <div class="col-6">
+                  <div class="col-6">
                     <div class="form-group">
                       <label for="" class="form-label">Joining Date</label>
                       <input type="date" class="form-control">
-                      </div>
-                  </div> -->
-                  <div class="col-6">
-                    <div class="form-group">
-                      <label for="" class="form-label">Passing Year</label>
-                      <input type="text" class="form-control" formControlName="passingyear" name="passingyear">
                       </div>
                   </div>
                 </div>
                    <div class="row mx-3 py-3">
                    
-                    <div class="col-6">
+                    <div class="col">
                       <div class="form-group">
                         <label for="" class="form-label">Mobile Number</label>
-                        <input type="number" class="form-control" formControlName="mobile" name="mobile">
+                        <input type="number" class="form-control">
                       </div>
                     </div>
-                    <div class="col-6">
-                      <div class="form-group" style="margin-bottom: 7px;">
-                        <label for="" class="form-label">Address</label>
-                       <textarea name="" id="" cols="10" rows="3" class="form-control"
-                        formControlName="address" name="address"></textarea>
-                        </div> 
-                    <!-- <div class="col">
+                    <div class="col">
                       <div class="form-group">
                         <label for="" class="form-label">Admission Number</label>
                         <input type="number" class="form-control">
                       </div>
-                    </div> -->
+                    </div>
                    </div>
-               <!-- <div class="row mx-3 py-3">
+               <div class="row mx-3 py-3">
                 <div class="col-6">
                   <div class="form-group" style="margin-bottom: 4px;">
                     <label for="" class="form-label">Section</label>
@@ -139,14 +111,14 @@
                     <input type="file" class="form-control" >
                     </div>
                     
-                </div> -->
-               <!-- </div> -->
-                      <!-- <div class="title mx-3 py-3">
+                </div>
+               </div>
+                      <div class="title mx-3 py-3">
                         <h2 class="field-title">
                          <span>   Parent Information </span>
                         </h2>
-                     </div> -->
-                   <!-- <div class="row mx-3 py-3">
+                     </div>
+                   <div class="row mx-3 py-3">
                     <div class="col-6">
                       <div class="form-group">
                         <label for="" class="form-label">Father's Name</label>
@@ -159,8 +131,8 @@
                         <input type="text" class="form-control">
                         </div>
                     </div>
-                   </div> -->
-                  <!-- <div class="row mx-3 py-3">
+                   </div>
+                  <div class="row mx-3 py-3">
                     <div class="col-6">
                       <div class="form-group">
                         <label for="" class="form-label">Father's Mobile</label>
@@ -173,8 +145,8 @@
                         <input type="email" class="form-control">
                         </div>
                     </div>
-                  </div> -->
-                   <!-- <div class="row mx-3 py-3">
+                  </div>
+                   <div class="row mx-3 py-3">
                     <div class="col-6">
                       <div class="form-group">
                         <label for="" class="form-label">Mother's Name</label>
@@ -187,8 +159,8 @@
                         <input type="text" class="form-control">
                         </div>
                     </div>
-                   </div> -->
-                    <!-- <div class="row mx-3 py-3">
+                   </div>
+                    <div class="row mx-3 py-3">
                       <div class="col-6">
                         <div class="form-group">
                           <label for="" class="form-label">Mother's Mobile</label>
@@ -201,29 +173,27 @@
                           <input type="email" class="form-control">
                           </div> 
                       </div>
-                    </div> -->
-                          <!-- <div class="row mx-3 py-3">
+                    </div>
+                          <div class="row mx-3 py-3">
                             <div class="col-6">
                               <div class="form-group" style="margin-bottom: 7px;">
-                                <label for="" class="form-label">Address</label>
-                               <textarea name="" id="" cols="10" rows="3" class="form-control"
-                                formControlName="address" name="address"></textarea>
+                                <label for="" class="form-label">Present Address</label>
+                               <textarea name="" id="" cols="10" rows="3" class="form-control"></textarea>
                                 </div> 
                                 
-                            </div> -->
-                            <!-- <div class="col-6">
+                            </div>
+                            <div class="col-6">
                               <div class="form-group" style="margin-bottom: 7px;">
                                 <label for="" class="form-label">Permanent Address</label>
-                               <textarea name="" id="" cols="10" rows="3" class="form-control"
-                               formControlName="address" name="address"></textarea>
+                               <textarea name="" id="" cols="10" rows="3" class="form-control"></textarea>
                                 </div> 
                                 
-                            </div> -->
+                            </div>
                           </div>
                 
-          <div class="row mx-3 py-1">
+          <div class="row mx-3 py-3">
             <div class="col-6">
-              <button type="button" class="btn btn-warning" (click)="regpost()">submit</button>   
+              <button type="button" class="btn btn-warning">submit</button>   
          
             </div>
           </div>
