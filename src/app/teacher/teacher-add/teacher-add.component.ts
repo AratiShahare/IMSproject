@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 // import { FormControl, FormGroup } from '@angular/forms';
-import { TeacherService } from 'src/app/service/teacher.service';
+// import { TeacherService } from 'src/app/service/teacher.service';
 
 @Component({
   selector: 'app-teacher-add',
@@ -11,9 +11,9 @@ import { TeacherService } from 'src/app/service/teacher.service';
 export class TeacherAddComponent {
 
 
-constructor(private teacher:TeacherService){
+// constructor(private teacher:TeacherService){
 
-}
+// }
  
 teacherForm=new FormGroup({
   "address": new FormControl(),
@@ -31,8 +31,8 @@ teacherForm=new FormGroup({
   "qualification":new FormControl()
 })
 
-saveTeacherData(){
-    this.teacher.saveTeacher(this.teacherForm.value).subscribe(res=>console.log(res))
-}
+// saveTeacherData(){
+//     this.teacher.saveTeacher(this.teacherForm.value).subscribe(res=>console.log(res))
+// }
 
 }

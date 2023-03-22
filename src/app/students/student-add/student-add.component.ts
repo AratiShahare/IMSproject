@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { StudentService } from 'src/app/service/student.service';
+// import { StudentService } from 'src/app/service/student.service';
 
 @Component({
   selector: 'app-student-add',
@@ -8,7 +8,7 @@ import { StudentService } from 'src/app/service/student.service';
   styleUrls: ['./student-add.component.css']
 })
 export class StudentAddComponent {
-   constructor(private ser:StudentService){}
+  //  constructor(private ser:StudentService){}
   
 
 
@@ -26,8 +26,8 @@ export class StudentAddComponent {
 
    })
 
-   regpost(){
-     this.ser.savestudentReg(this.addstudform.value).subscribe((res)=>
-     console.log(res))
-   }
+  //  regpost(){
+  //    this.ser.savestudentReg(this.addstudform.value).subscribe((res)=>
+  //    console.log(res))
+  //  }
 }
