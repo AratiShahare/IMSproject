@@ -34,39 +34,58 @@
         </label>
  
     </div>
-    <table class="table mx-4"  >
-        <thead>
+    <div class="outer-wrapper">
+      <div class="table-wrapper">
+    
+        <table class="mx-4"  class="table table-bordered">
+      
             <tr>
                 <th>ID</th>
-                <th>Name</th>
-                <th>Class</th>
+                <th>First Name</th>
+                <th>Last Name</th>
                  <th>Gender</th>
-                 <th>Subject</th>
-                 <th>Section</th>
-                 <th>Mobile Noumber</th>
+                 <th>Email</th>
+                 <th>Experience</th>
+                 <th>Contact Number</th>
+                <th>DateOfJoining</th>
                 <th>Address</th>
+                <th>Date of Birth</th>
+                <th>Qualification</th>
+                <th>Salary</th>
+                <th>password</th>
+                <th>Temp password</th>
+                <th>Batch Code</th>
+                <th>Mentor Id</th>
                 <th>Action</th>
             </tr>
-        </thead>
-        <tbody>
-           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+       
+     
+           <tr *ngFor="let t of teach">
+            <td>{{t.id}}</td>
+            <td>{{t.firstName}}</td>
+            <td>{{t.lastName}}</td>
+            <td>{{t.gender}}</td>
+            <td>{{t.email}}</td>
+            <td>{{t.experience}}</td>
+            <td>{{t.contactNo}}</td>
+            <td>{{t.dateOfJoining}}</td>
+            <td>{{t.address}}</td>
+            <td>{{t.dob}}</td>
+            <td>{{t.qualification}}</td>
+            <td>{{t.salary}}</td>
+            <td>{{t.password}}</td>
+            <td>{{t.tempPassword}}</td>
+            <td>{{t.batchCode}}</td>
+            <td>{{t.mentorId}}</td>
             <td><button class="btn btn-sm bg-success-light " id="btn1">
               <i class="fas fa-pen" id="i1"></i>
             </button>
             <button class="btn btn-sm bg-danger-light ">
-              <i class="fas fa-trash" id="i2"></i>
+              <i class="fas fa-trash" id="i2"></i> 
             </button>
           </td>
            </tr>
-        </tbody>
+       
       </table>
       <ul class="pagination col-auto text-right float-right ml-auto " style="margin-right: 6px;">
         <li class="page-item"><a class="page-link" href="" >Previous</a></li>
@@ -81,7 +100,7 @@
       aria-label="Select page">
     </mat-paginator> -->
 
-</form>
+  </div>
 
   
 </div>
