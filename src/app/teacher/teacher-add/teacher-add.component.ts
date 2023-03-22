@@ -9,7 +9,7 @@ import { TeacherService } from 'src/app/service/teacher.service';
   styleUrls: ['./teacher-add.component.css']
 })
 export class TeacherAddComponent {
-  constructor(){}
+
 
 constructor(private teacher:TeacherService){
 

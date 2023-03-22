@@ -8,9 +8,7 @@ import { Injectable } from '@angular/core';
 })
 export class TeacherService {
 
-  constructor() { }
-
-  constructor( private http:HttpClient ) {
+    constructor( private http:HttpClient ) {
 
    }
    baseurl="http://13.233.50.4:8080"
