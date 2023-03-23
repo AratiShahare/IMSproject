@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
+import { StudentService } from 'src/app/service/student.service';
 
 @Component({
   selector: 'app-student-edit',
@@ -6,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./student-edit.component.css']
 })
 export class StudentEditComponent {
+  constructor(private edi:StudentService){}
+
+  editform=new FormGroup({
+
+  })
+
+  updateedit(){
+
+  }
 
 }
