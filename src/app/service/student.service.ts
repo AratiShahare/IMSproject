@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { text } from '@fortawesome/fontawesome-svg-core';
 
 @Injectable({
   providedIn: 'root'
@@ -16,13 +17,15 @@ export class StudentService {
    getallstudList(){
      return this.http.get(`http://13.233.50.4:8080/student/all`)
    }
-
+  getbyid(id:number){
+  return this.http.get(`http://13.233.50.4:8080/student/${id}`)
+ }
  
    deleteStudList(id:number){
     return this.http.delete(`http://13.233.50.4:8080/student/${id}`)
    }
 
    updateStudEdit(body:any){
-    return this.http.put(`http://13.233.50.4:8080/student/updateStudent`,body)
+    return this.http.put(`http://13.233.50.4:8080/student/updateStudent`,body,{responseType:'text'})
    }
 }
