@@ -18,3 +18,4 @@ export class TeacherService {
     return this.http.get(`${this.baseurl}/mentor/all`)
    }
 }
+
