@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ForgetpasswordComponent } from './forgetpassword/forgetpassword.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,11 +16,15 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     LoginComponent,
     RegisterComponent,
     ForgetpasswordComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+  
+    
   ],
   imports: [
     CommonModule,
-    AuthenticationRoutingModule
+    AuthenticationRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ]
 })
 export class AuthenticationModule { }
