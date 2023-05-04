@@ -29,6 +29,11 @@ import { DepartmentModule } from './department/department.module';
 import { SubjectModule } from './subject/subject.module';
 import { AccountModule } from './account/account.module';
 import { AuthenticationModule } from './authentication/authentication.module';
+// import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {MatTableModule} from '@angular/material/table';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { CalendarModule, DatePickerModule, DateRangePickerModule, DateTimePickerModule, TimePickerModule } from '@syncfusion/ej2-angular-calendars';
+
 
 
 @NgModule({
@@ -41,6 +46,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgApexchartsModule,
      StudentsRoutingModule,
     BrowserAnimationsModule,
     StudentsModule,
@@ -48,12 +54,13 @@ import { AuthenticationModule } from './authentication/authentication.module';
     ReactiveFormsModule,
      FormsModule,
      DashboardModule,
+     MatTableModule,
      TeacherModule,
      DepartmentModule,
      SubjectModule,
-     AccountModule,
+     AccountModule, 
      AuthenticationModule,
-     
+    //  AngularFontAwesomeModule,
       MatSidenavModule,
       MatToolbarModule,
       MatMenuModule,
@@ -64,9 +71,17 @@ import { AuthenticationModule } from './authentication/authentication.module';
       FontAwesomeModule,
       MatButtonModule,
       MatButtonToggleModule,
-      MatPaginatorModule
+      MatPaginatorModule,
+      CalendarModule,
+    DatePickerModule,
+     TimePickerModule, 
+     DateRangePickerModule,
+      DateTimePickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+
+}
