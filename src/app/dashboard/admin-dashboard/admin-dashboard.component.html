@@ -1,18 +1,12 @@
-<div class="page-wrapper" >
-    <div class="content container-fluid  pt-3">
-       <div class="page-header">
-          <div class="row m-4">
-             <div class="col-sm-12">
-                <h1 class="page-title ">Welcome Admin!</h1>
-                
-                   <span>Dashboard</span>
-
-                   
-               
-             </div>
-          </div>
-       </div>
-       <div class="row m-4">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 ">
+            <h1 class="">Welcome Admin!</h1>
+            <p class="m-2">Dashboard</p>
+        </div>
+    </div>
+    <!-- --------------------------------------------------- -->
+    <div class="row m-4">
         <div class="col-lg-3 col-md-6 d-flex">
             <div class="card bg-one w-100" id="card1">
                 <div class="card-body" id="cardbody1">
@@ -76,101 +70,184 @@
                  </div>
         </div>
        </div>
+    <!-- -------------------------------------------------------------- -->
 
-       <div class="row mx-3 pb-3">
-        <div class="col-md-12 col-lg-6">
-            <div class="card card-chart">
-                <div class="card-header">
-                   <div class="row align-items-center">
-                      <div class="col-6">
-                        <div class="card-title">
-                            Revenue
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        
-                            <ul class="list-inline-group text-right mb-0 pl-0">
-                               <li class="list-inline-item">
-                                  <div class="form-group mb-0 amount-spent-select">
-                                     <select class="form-control form-control-sm">
-                                        <option>Today</option>
-                                        <option>Last Week</option>
-                                        <option>Last Month</option>
-                                     </select>
-                                  </div>
-                               </li>
-                            </ul>
-                         </div> &nbsp;&nbsp;&nbsp;&nbsp;
-                         <hr>
-                      </div>
-                   </div>
-                </div>
-        </div>
-        <div class="col-md-12 col-lg-6">
-            <div class="card card-chart">
-                <div class="card-header">
-                   <div class="row align-items-center">
-                      <div class="col-6">
-                        <div class="card-title">
-                            Number of Students
-                        </div>
-                      </div>
-                      <div class="col-6">
-                        
-                            <ul class="list-inline-group text-right mb-0 pl-0">
-                               <li class="list-inline-item">
-                                  <div class="form-group mb-0 amount-spent-select">
-                                     <select class="form-control form-control-sm">
-                                        <option>Today</option>
-                                        <option>Last Week</option>
-                                        <option>Last Month</option>
-                                     </select>
-                                  </div>
-                               </li>
-                            </ul>
-                         </div>&nbsp;&nbsp;&nbsp;&nbsp;
-                         <hr>
-                      </div>
-                   </div>
+    <div class="row">
+        <div class="col-md-6 mt-4">
+            <div class="box-2">
+                <div class="card">
+                    <h5 class="card-header " ><h1 class="mt-1">Revenue</h1></h5>
+                    <div class="card-body" id="chart"> </div>
+                   
                 </div>
             </div>
+
         </div>
-        <div class="row mx-3">
-            <div class="col-md-12 col-lg-6">
-                <div class="card card-chart">
-                    <div class="card-header">
-                       <div class="row align-items-center">
-                          <div class="col-6">
-                            <div class="card-title">
-                                Star Students
-                            </div>
-                          </div>
-                         &nbsp;&nbsp;&nbsp;&nbsp;
-                             <hr>
-                          </div>
-                       </div>
-                    </div>
+
+        <div class="col-md-6 mt-4">
+            <div class="box-2">
+                <div class="card">
+                    <h5 class="card-header " ><h1 class="mt-1">Number of Students</h1></h5>
+                    <div class="card-body" id="chart2"> </div>
+            
+                </div>
             </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="card card-chart">
-                    <div class="card-header">
-                       <div class="row align-items-center">
-                          <div class="col-6">
-                            <div class="card-title">
-                                Student Activity
-                            </div>
-                          </div>
-                     &nbsp;&nbsp;&nbsp;&nbsp;
-                             <hr>
-                          </div>
-                       </div>
+
+        </div>
+    </div>
+    <!-- ------------------------------------------------  -->
+
+    <div class="row">
+        <div class="col-md-6 mt-4">
+            <div class="box-3">
+                <div class="card">
+                    <h5 class="card-header table-text">Star Students</h5>
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Marks</th>
+                                <th scope="col">Percentage</th>
+                                <th scope="col">Year</th>
+                              </tr>
+                            </thead>
+                            <tbody >
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>2015</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>2016</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                                <td>2017</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>2018</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>2015</td>
+                              </tr>
+                            </tbody>
+                          </table>
                     </div>
+                </div>
             </div>
         </div>
-       </div>
-     </div>
+
+
+        <div class="col-md-6 mt-4">
+            <div class="box-4">
+                <div class="card">
+                    <h5 class="card-header table-text">Student Activity</h5>
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+
+    </div>
+<!-- ============================================================ -->
+
+    <div class="row">
+        <div class="col-md-3 mt-4">
+            <div class="box-5 bg-primary">
+                <div class="card-body d-flex justify-content-between">
+                    <div class="text-1 ">
+                        <h3>50095</h3>
+                        <h5>Follows</h5>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mt-4">
+            <div class="box-5 bg-info">
+                <div class="card-body d-flex justify-content-between">
+                    <div class="text-1">
+                        <h3>48596</h3>
+                        <h5>Follows</h5>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                 
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mt-4">
+            <div class="box-5 bg-danger">
+                <div class="card-body d-flex justify-content-between">
+                    <div class="text-1">
+                        <h3>52085</h3>
+                        <h5>Follows</h5>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mt-4">
+            <div class="box-5 bg-warning">
+                <div class="card-body d-flex justify-content-between">
+                    <div class="text-1">
+                        <h3>69050</h3>
+                        <h5>Follows</h5>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
   
-     
+<!-- ================================================================ -->
 
+<div class="row">
+    <div class="col-md-6 mt-4">
+        <h2>Copyright © 2020 Dreamguys.</h2>
+    </div>
+</div>
 
-   
+</div>
