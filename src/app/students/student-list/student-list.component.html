@@ -89,20 +89,24 @@
            <td>{{a.dob}}</td>
            <td>{{a.course}}</td>
            <td>{{a.passingYear}}</td>
-           <td>{{a.mentor}}</td>
+           <td>{{a.mentorId}}</td>
            <td>{{a.incomeId}}</td>
            <td>{{a.basePackage}}</td>
            <td>{{a.formalContractRecived}}</td>
            <td>{{a.batchCode}}</td>
            <td>{{a.contractSent}}</td>
            <td>{{a.mentorOpted}}</td>
-            <td><button class="btn btn-sm bg-success-light " id="btn1" >
-              <i class="fas fa-pen" id="i1"></i>
-            </button>
+
+            <td><button class="btn btn-sm bg-success-light "[routerLink]="['/edit/'+a.id]" id="btn1" >
+              <i class="fas fa-pen" id="i1"></i></button></td>
+            <!-- <td><button class="btn btn-sm bg-success-light " id="btn1" >
+              <i class="fas fa-pen" id="i1"><a [routerLink]="['/edit'+a.id]"></a></i></button></td> -->
+
+            
             <button class="btn btn-sm bg-danger-light " (click)=" deleteStudlist(a.id)">
               <i class="fas fa-trash" id="i2"></i>
             </button>
-          </td>
+          
            </tr>
       
       </table>

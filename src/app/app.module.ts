@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import {  FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
  import { StudentsRoutingModule } from './students/students-routing.module';
@@ -19,7 +17,7 @@ import { MatListModule } from '@angular/material/list';
 import{MatExpansionModule} from '@angular/material/expansion';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { HeaderComponent } from './header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import{ MatButtonModule} from '@angular/material/button'
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatPaginatorModule} from '@angular/material/paginator';
@@ -60,7 +58,6 @@ import { CalendarModule, DatePickerModule, DateRangePickerModule, DateTimePicker
      SubjectModule,
      AccountModule, 
      AuthenticationModule,
-    //  AngularFontAwesomeModule,
       MatSidenavModule,
       MatToolbarModule,
       MatMenuModule,
@@ -68,10 +65,11 @@ import { CalendarModule, DatePickerModule, DateRangePickerModule, DateTimePicker
       MatDividerModule,
       MatListModule,
       MatExpansionModule,
-      FontAwesomeModule,
+      // FontAwesomeModule,
       MatButtonModule,
       MatButtonToggleModule,
       MatPaginatorModule,
+
       CalendarModule,
     DatePickerModule,
      TimePickerModule, 
